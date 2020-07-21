@@ -9,12 +9,12 @@
 /* Begin PBXBuildFile section */
 		5F4574E024ABB197000A03CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4574DF24ABB197000A03CD /* AppDelegate.swift */; };
 		5F4574E224ABB197000A03CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4574E124ABB197000A03CD /* SceneDelegate.swift */; };
-		5F4574E424ABB197000A03CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4574E324ABB197000A03CD /* ViewController.swift */; };
 		5F4574E724ABB197000A03CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F4574E524ABB197000A03CD /* Main.storyboard */; };
 		5F4574E924ABB19E000A03CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F4574E824ABB19E000A03CD /* Assets.xcassets */; };
 		5F4574EC24ABB19E000A03CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5F4574EA24ABB19E000A03CD /* LaunchScreen.storyboard */; };
 		5F4574F724ABB19E000A03CD /* MQTTDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F4574F624ABB19E000A03CD /* MQTTDemoTests.swift */; };
 		5F45750224ABB19E000A03CD /* MQTTDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F45750124ABB19E000A03CD /* MQTTDemoUITests.swift */; };
+		5FFC189324B6515300CCB75C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FFC189224B6515300CCB75C /* ViewController.swift */; };
 		FD9A1938ADDC2CEA71FE0B25 /* Pods_MQTTDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0792ADBCB02128A4B0278BC /* Pods_MQTTDemo.framework */; };
 /* End PBXBuildFile section */
 
@@ -41,7 +41,6 @@
 		5F4574DC24ABB197000A03CD /* retro_matrix_companion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = retro_matrix_companion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F4574DF24ABB197000A03CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5F4574E124ABB197000A03CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5F4574E324ABB197000A03CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5F4574E624ABB197000A03CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5F4574E824ABB19E000A03CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5F4574EB24ABB19E000A03CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,6 +51,7 @@
 		5F4574FD24ABB19E000A03CD /* retro_matrix_companionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = retro_matrix_companionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5F45750124ABB19E000A03CD /* MQTTDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQTTDemoUITests.swift; sourceTree = "<group>"; };
 		5F45750324ABB19E000A03CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FFC189224B6515300CCB75C /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B0792ADBCB02128A4B0278BC /* Pods_MQTTDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MQTTDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -114,9 +114,9 @@
 		5F4574DE24ABB197000A03CD /* retro_matrix_companion */ = {
 			isa = PBXGroup;
 			children = (
+				5FFC189224B6515300CCB75C /* ViewController.swift */,
 				5F4574DF24ABB197000A03CD /* AppDelegate.swift */,
 				5F4574E124ABB197000A03CD /* SceneDelegate.swift */,
-				5F4574E324ABB197000A03CD /* ViewController.swift */,
 				5F4574E524ABB197000A03CD /* Main.storyboard */,
 				5F4574E824ABB19E000A03CD /* Assets.xcassets */,
 				5F4574EA24ABB19E000A03CD /* LaunchScreen.storyboard */,
@@ -327,7 +327,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F4574E424ABB197000A03CD /* ViewController.swift in Sources */,
+				5FFC189324B6515300CCB75C /* ViewController.swift in Sources */,
 				5F4574E024ABB197000A03CD /* AppDelegate.swift in Sources */,
 				5F4574E224ABB197000A03CD /* SceneDelegate.swift in Sources */,
 			);
